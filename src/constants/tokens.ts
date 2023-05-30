@@ -411,6 +411,21 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WMATIC',
     'Wrapped MATIC'
   ),
+  [SupportedChainId.POLYGON_MUMBAI]: new Token(
+    SupportedChainId.POLYGON_MUMBAI,
+    '0x04517a727E4d503a9aCE8Ec8B17c08990e2561b9',
+    2,
+    'USA',
+    'USA'
+  ),
+  [SupportedChainId.POLYGON_MUMBAI]: new Token(
+    SupportedChainId.POLYGON_MUMBAI,
+    '0x97B83cD86D699A1fC92d5c7edfbdA2f1f9768f1f',
+    2,
+    'USF',
+    'USF'
+  ),
+
   [SupportedChainId.CELO]: new Token(
     SupportedChainId.CELO,
     '0x471ece3750da237f93b8e339c536989b8978a438',
